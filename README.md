@@ -28,6 +28,7 @@ About JJY, please refer to [https://jjy.nict.go.jp/jjy/trans/index.html](https:/
 ## How to make the program work
 * Use [Thonny](https://thonny.org/) or similar MicroPython IDE (Confirmed with Thonny 4.0.2, Python 3.10.9)
 * Install MicroPython (Raspberry Pi Pico) interpreter firmware on Raspberry Pi Pico W by Thonny
+* Confirmed with MicroPython v1.22.2
 * Add `secrets.py` to include your WiFi configuration and put it on the storage of Raspberry Pi Pico W
 ```
 # secrets.py
