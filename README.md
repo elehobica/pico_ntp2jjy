@@ -22,6 +22,8 @@ About JJY, please refer to [https://jjy.nict.go.jp/jjy/trans/index.html](https:/
 |  5 | GP3 | PIN_MOD_N | JJY modulation differential output Nch |
 |  6 | GP4 | PIN_CTRL | Control Output (option for external carrier generator) |
 
+* If single-ended output is required, use GP2 and GND.
+
 ## Connection Diagram
 ![Connection Diagram](doc/pico_jjy_tx_connection.png)
 
