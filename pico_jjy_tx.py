@@ -233,7 +233,7 @@ class Jjy:
     self.lcTime.alignSecondEdge()
     utime.sleep(0.2)  # to make same condition as marker P0
     while True:
-      t = self.lcTime.now(1)  # time for next second
+      t = self.lcTime.now(0)  # time for next second
       vector = genTimecode(t)
       print(f'Timecode: {t}')
       sendTimecode(vector[t.second:])  # apply offset (should be only for the first time)
